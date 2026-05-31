@@ -1,4 +1,4 @@
-# MERIT
+# MERIT: Matching Expertise via Rubric-Informed Training for Reviewer Assignment
 
 This repository contains the official code release for MERIT. The system is organized into two stages:
 
@@ -231,8 +231,3 @@ Generated files are ignored by git by default:
 - `MERIT-Retriever/test/CMU/topk/`
 - `MERIT-Retriever/test/CMU/predictions/`
 
-## Notes
-
-- Use the module-level READMEs for complete environment and path details.
-- Large models, checkpoints, and generated outputs are intentionally not tracked in git.
-- Default GPU settings follow the training scripts, but all major paths and device choices can be overridden with environment variables or command-line arguments.
